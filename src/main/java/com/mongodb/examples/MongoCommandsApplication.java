@@ -31,6 +31,7 @@ public class MongoCommandsApplication implements CommandLineRunner {
 	@Autowired
 	MongoConfig config;
 
+	Integer integer = Integer.MAX_VALUE;
 
 	static MongoClient client;
 	private static Logger LOG = LoggerFactory
